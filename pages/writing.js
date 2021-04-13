@@ -1,10 +1,12 @@
 import Header from '../components/Header';
 
-export default function Home() {
+const Writing = () => {
   return (
     <div>
       <Header />
-      <h1>Home</h1>
+      <h1>Stuff I've Written</h1>
     </div>
   );
-}
+};
+
+export default Writing;
