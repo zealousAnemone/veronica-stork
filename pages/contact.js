@@ -6,7 +6,7 @@ const Contact = () => {
       <Header />
       <h1>Contact Me</h1>
       <section>
-        Send me an email if you'd like, or let's connect elsewhere. Let's talk
+        Send me an email if you'd like, or let's connect elsewhere. We can talk
         about software engineering and/or our cats!
         <div id="contact-methods">
           <p>Email: veronica.stork@gmail.com</p>
