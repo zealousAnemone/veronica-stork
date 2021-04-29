@@ -10,7 +10,7 @@ let parser = new Parser({
 
 const Writing = () => {
   const [articles, setArticles] = useState([]);
-  const CORS_PROXY = 'https://thingproxy.freeboard.io/fetch/';
+  const CORS_PROXY = 'https://cors-anywhere.herokuapp.com/';
   useEffect(async () => {
     const articleArr = [];
     let feed = await parser.parseURL(
