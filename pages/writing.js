@@ -10,11 +10,11 @@ let parser = new Parser({
 
 const Writing = () => {
   const [articles, setArticles] = useState([]);
-
+  const CORS_PROXY = 'http://www.whateverorigin.org/get?url=';
   useEffect(async () => {
     const articleArr = [];
     let feed = await parser.parseURL(
-      'https://www.freecodecamp.org/news/author/veronica/rss/'
+      CORS_PROXY + 'https://www.freecodecamp.org/news/author/veronica/rss/'
     );
 
     feed.items.forEach((item) => {
