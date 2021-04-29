@@ -2,9 +2,9 @@ import Header from '../components/Header';
 let Parser = require('rss-parser');
 let parser = new Parser();
 const getFeed = async () => {
-  const CORS_PROXY = 'https://cors-anywhere.herokuapp.com/';
+  // const CORS_PROXY = 'https://cors-anywhere.herokuapp.com/';
   let feed = await parser.parseURL(
-    CORS_PROXY + 'https://www.freecodecamp.org/news/author/veronica/rss/'
+    'https://www.freecodecamp.org/news/author/veronica/rss/'
   );
   console.log(feed.title);
 
