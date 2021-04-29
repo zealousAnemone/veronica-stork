@@ -1,23 +1,40 @@
 import Header from '../components/Header';
-let Parser = require('rss-parser');
-let parser = new Parser();
-const getFeed = async () => {
-  // const CORS_PROXY = 'https://cors-anywhere.herokuapp.com/';
-  let feed = await parser.parseURL(
-    'https://www.freecodecamp.org/news/author/veronica/rss/'
-  );
-  console.log(feed.title);
+import { useEffect, useState } from 'react';
 
-  feed.items.forEach((item) => {
-    console.log(item.title + ':' + item.link);
-  });
-};
+let Parser = require('rss-parser');
+let parser = new Parser({
+  customFields: {
+    item: ['media:content'],
+  },
+});
+
 const Writing = () => {
+  const [articles, setArticles] = useState([]);
+
+  useEffect(async () => {
+    const articleArr = [];
+    let feed = await parser.parseURL(
+      'https://www.freecodecamp.org/news/author/veronica/rss/'
+    );
+
+    feed.items.forEach((item) => {
+      let imgUrl = item['media:content']['$'].url;
+      articleArr.push(
+        <article>
+          <img src={imgUrl} width={300} />
+          <a href={item.link}>
+            <h3>{item.title}</h3>
+          </a>
+        </article>
+      );
+    });
+    setArticles(articleArr);
+  }, []);
   return (
     <div>
       <Header />
       <h1>Stuff I've Written</h1>
-      <button onClick={getFeed}>get feed</button>
+      {articles}
     </div>
   );
 };
