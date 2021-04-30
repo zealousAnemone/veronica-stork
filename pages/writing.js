@@ -34,6 +34,7 @@ const Writing = () => {
     <div>
       <Header />
       <h1>Stuff I've Written</h1>
+      <p>This is a feed of articles I have written for freeCodeCamp.</p>
       {articles}
     </div>
   );
