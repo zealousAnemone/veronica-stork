@@ -2,28 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap');
 
 nav a {
-  font-size: 1.2rem;
-  color: #333;
   margin-right: 2rem;
+}
+a {
+  font-size: 1.2rem;
   font-weight: 600;
+  color: #222;
+  box-shadow: 0px -4px 0px #fe019a inset;
+  text-decoration: none;
 }
 
-nav {
+a:hover {
+  box-shadow: 0px -4px 0px #39ff14 inset;
 }
-
 body {
   padding: 4.5rem;
   margin: 0;
-  background: #edc0bf;
-  background: linear-gradient(90deg, #edc0bf 0, #c4caef 58%);
   color: #222;
 }
 
 header {
   background: rgba(255, 255, 255, 0.7);
+  border-bottom: 2px solid #222;
   padding: 1.2rem 2rem;
   margin-bottom: 1.5rem;
-
   box-shadow: 5px 5px 5px grey;
   position: absolute;
   top: 0;
@@ -31,14 +33,15 @@ header {
   width: 100%;
   height: 4rem;
 }
+
 h1 {
   font-size: 72px;
   margin-bottom: 0;
+  color: #fe019a;
 }
 
 h2 {
-  margin-top: 0;
-  margin-bottom: 2em;
+  margin-bottom: 0;
   margin-left: 1.2em;
 }
 h1,
@@ -56,10 +59,13 @@ section {
   background: rgba(255, 255, 255, 0.7);
   padding: 1.2rem 2rem;
   margin-bottom: 1.5rem;
-  border-radius: 1rem;
   box-shadow: 5px 5px 5px grey;
+  border: 2px solid #222;
 }
 
+p {
+  font-size: 1.1rem;
+}
 #contact-methods a {
   margin-right: 1em;
   color: #222;
@@ -80,4 +86,15 @@ section {
 
 .project h3 {
   margin-bottom: 0;
+}
+
+.card {
+  border: 2px solid #222;
+  margin: 1rem;
+  padding: 1.4rem 0.8rem;
+  box-shadow: 5px 5px 5px grey;
+}
+
+ul {
+  list-style: none;
 }

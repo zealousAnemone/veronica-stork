@@ -1,13 +1,14 @@
-import Header from '../components/Header';
-
 const Contact = () => {
   return (
     <div>
-      <Header />
       <h1>Contact Me</h1>
       <section>
-        Send me an email if you'd like, or let's connect elsewhere. We can talk
-        about software engineering and/or our cats!
+        <p>
+          {' '}
+          Send me an email if you'd like, or let's connect elsewhere. We can
+          talk about software engineering, writing, and/or our cats!
+        </p>
+
         <div id="contact-methods">
           <p>Email: veronica.stork@gmail.com</p>
           <a href="https://twitter.com/veewren">Twitter</a>

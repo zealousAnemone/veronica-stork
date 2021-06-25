@@ -1,5 +1,3 @@
-import Header from '../components/Header';
-
 const Projects = () => {
   const info = require('../info.json');
   const skillsArr = [];
@@ -21,7 +19,6 @@ const Projects = () => {
   });
   return (
     <div>
-      <Header />
       <h1>Projects</h1>
       <section id="tech-skills">
         <h3>Technical Skills</h3>
