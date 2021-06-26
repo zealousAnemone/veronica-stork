@@ -35,7 +35,7 @@ header {
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 4.6rem;
   margin-bottom: 0;
   color: #fe019a;
 }
@@ -64,7 +64,7 @@ section {
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 #contact-methods a {
   margin-right: 1em;
@@ -72,29 +72,40 @@ p {
   font-weight: 600;
 }
 
-.project h4 {
+/* .project h4 {
   margin-top: 0;
 }
 
 .project h4:nth-child(3) {
   margin-top: 0;
   margin-bottom: 0;
-}
-.project p {
+} */
+/* .project p {
   margin-top: 0;
 }
 
 .project h3 {
   margin-bottom: 0;
-}
+} */
 
 .card {
+  display: flex;
+  flex-wrap: wrap;
   border: 2px solid #222;
   margin: 1rem;
   padding: 1.4rem 0.8rem;
   box-shadow: 5px 5px 5px grey;
 }
 
+#intro {
+  margin: 1.2rem;
+}
 ul {
   list-style: none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
 }

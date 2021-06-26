@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <div>
       <h1>Contact Me</h1>
-      <section>
+      <div className="card">
         <p>
           {' '}
           Send me an email if you'd like, or let's connect elsewhere. We can
@@ -15,7 +15,7 @@ const Contact = () => {
           <a href="https://github.com/zealousAnemone">Github</a>
           <a href="https://www.linkedin.com/in/veewren/">LinkedIn</a>
         </div>
-      </section>
+      </div>
     </div>
   );
 };
