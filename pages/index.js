@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       <h1>Veronica Stork</h1>
       <h2>Software Engineer & Technical Writer</h2>
-      <div className="card">
+      <div className="card" id="index">
         <Image
           src="/meincar.jpg"
           alt="Photo of me"
@@ -15,8 +15,11 @@ export default function Home() {
           className="photo"
         />
         <p id="intro">
-          This page is a work in progress. If you'd like to chat, head over to
-          my <Link href="/contact">contact</Link> page!
+          I am a technical writer with hands-on experience in software
+          engineering. I'm passionate about creating clear documentation and
+          tutorials that make complicated concepts easy to understand. If you'd
+          like to chat, head over to my <Link href="/contact">contact</Link>{' '}
+          page!
         </p>
       </div>
     </div>
