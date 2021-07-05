@@ -1,6 +1,11 @@
+import Head from 'next/head';
+
 const Writing = () => {
   return (
     <div>
+      <Head>
+        <title>Writing portfolo</title>
+      </Head>
       <h1>Technical Writing</h1>
       <div className="card">
         <h2>Low-Code/No-Code</h2>

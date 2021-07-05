@@ -1,9 +1,13 @@
 import Image from 'next/image';
+import Head from 'next/head';
 import Link from 'next/link';
 
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Veronica Stork</title>
+      </Head>
       <h1>Veronica Stork</h1>
       <h2>Software Engineer & Technical Writer</h2>
       <div className="card" id="index">

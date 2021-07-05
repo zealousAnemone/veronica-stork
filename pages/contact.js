@@ -1,6 +1,11 @@
+import Head from 'next/head';
+
 const Contact = () => {
   return (
     <div id="contact-me">
+      <Head>
+        <title>Contact me</title>
+      </Head>
       <h1>Contact Me</h1>
       <div className="card">
         <p>
