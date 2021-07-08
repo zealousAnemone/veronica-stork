@@ -115,9 +115,44 @@ ul {
   flex-wrap: wrap;
 }
 
+.hamberder {
+  display: none;
+}
+nav {
+  position: relative;
+}
+#dropdown {
+  z-index: 1000;
+  position: absolute;
+  top: 4.1rem;
+  left: 0;
+  border: 2px solid #222;
+  border-top: none;
+}
+
+#dropdown > a {
+  display: block;
+  background-color: white;
+  width: 100vw;
+  padding: 2rem;
+  margin: 0;
+  box-shadow: none;
+}
+
+#dropdown > a:hover {
+  background-color: #39ff14;
+}
+
 @media only screen and (max-width: 600px) {
   body {
     padding: 1rem;
+  }
+  .hamberder {
+    display: inline-block;
+    cursor: pointer;
+  }
+  nav {
+    display: none;
   }
 }
 
