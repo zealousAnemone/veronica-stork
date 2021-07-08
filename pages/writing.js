@@ -28,6 +28,27 @@ const Writing = () => {
         </ul>
       </div>
       <div className="card">
+        <h2>Node</h2>
+        <ul>
+          <li>
+            <a href="https://www.freecodecamp.org/news/how-to-use-node-environment-variables-with-a-dotenv-file-for-node-js-and-npm/">
+              How to Use Node Environment Variables with a DotEnv File for
+              Node.js and npm
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div className="card">
+        <h2>APIs</h2>
+        <ul>
+          <li>
+            <a href="https://www.freecodecamp.org/news/graphql-vs-rest-benefits-and-code-example-comparisons/">
+              GraphQL VS REST – Benefits and Code Example Comparisons
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div className="card">
         <h2>Databases</h2>
         <ul>
           <li>
