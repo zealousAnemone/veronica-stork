@@ -52,6 +52,11 @@ const Writing = () => {
         <h2>Databases</h2>
         <ul>
           <li>
+            <a href="https://www.freecodecamp.org/news/sql-aggregate-functions-with-example-data-queries-for-beginners/">
+              SQL Aggregate Functions – With Example Data Queries for Beginners
+            </a>
+          </li>
+          <li>
             <a href="https://www.freecodecamp.org/news/sql-case-statement-tutorial-with-when-then-clause-example-queries/">
               SQL Case Statement Tutorial
             </a>
