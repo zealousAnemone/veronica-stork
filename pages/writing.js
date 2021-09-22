@@ -18,6 +18,16 @@ const Writing = () => {
         </ul>
       </div>
       <div className="card">
+        <h2>UX</h2>
+        <ul>
+          <li>
+            <a href="https://www.sajari.com/blog/autocomplete-typeahead-search-api">
+            Build Typeahead Search Into Your Search Box via the Sajari API
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div className="card">
         <h2>Headless CMS</h2>
         <ul>
           <li>
