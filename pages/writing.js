@@ -46,6 +46,14 @@ const Writing = () => {
               GraphQL VS REST – Benefits and Code Example Comparisons
             </a>
           </li>
+          <li>
+            <a
+              href="https://blog.replit.com/getting-started-with-the-spacetraders-API-on-replit
+            "
+            >
+              Getting Started with the SpaceTraders API on Replit
+            </a>
+          </li>
         </ul>
       </div>
       <div className="card">
