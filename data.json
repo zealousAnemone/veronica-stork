@@ -1,0 +1,64 @@
+{
+  "articles": [
+    {
+      "title": "The Complete Table Widget: Building Complex Tables with Appsmith",
+      "url": "https://blog.appsmith.com/the-complete-table-widget-building-complex-tables-with-appsmith",
+      "tags": ["low-code", "appsmith"]
+    },
+    {
+      "title": "How to Build a CSS Tricks Website Clone with Strapi and Next.js",
+      "url": "https://strapi.io/blog/building-a-css-tricks-website-clone-with-strapi-next-js",
+      "tags": ["headless", "cms", "strapi"]
+    },
+    {
+      "title": "Creating a Recipe Book with Strapi",
+      "url": "https://strapi.io/blog/creating-a-recipe-book-with-strapi",
+      "tags": ["headless", "cms", "strapi"]
+    },
+    {
+      "title": "How to build an aircraft seat map in React",
+      "url": "https://developers.amadeus.com/blog/react-seat-map",
+      "tags": ["react", "api"]
+    },
+    {
+      "title": "Getting Started with the SpaceTraders API on Replit",
+      "url": "https://blog.replit.com/getting-started-with-the-spacetraders-API-on-replit",
+      "tags": ["api", "replit"]
+    },
+    {
+      "title": "Build Typeahead Search Into Your Search Box via the Sajari API",
+      "url": "https://www.search.io/blog/autocomplete-typeahead-search-api",
+      "tags": ["api", "react"]
+    },
+    {
+      "title": "How to Use Node Environment Variables with a DotEnv File for Node.js and npm",
+      "url": "https://www.freecodecamp.org/news/how-to-use-node-environment-variables-with-a-dotenv-file-for-node-js-and-npm/",
+      "tags": ["nodejs"]
+    },
+    {
+      "title": "GraphQL VS REST - Benefits and Code Example Comparisons",
+      "url": "https://www.freecodecamp.org/news/graphql-vs-rest-benefits-and-code-example-comparisons/",
+      "tags": ["api", "graphql", "rest"]
+    },
+    {
+      "title": "SQL Case Statement Tutorial",
+      "url": "https://www.freecodecamp.org/news/sql-case-statement-tutorial-with-when-then-clause-example-queries/",
+      "tags": ["sql", "databases"]
+    },
+    {
+      "title": "SQL Aggregate Functions",
+      "url": "https://www.freecodecamp.org/news/sql-aggregate-functions-with-example-data-queries-for-beginners/",
+      "tags": ["sql", "databases"]
+    },
+    {
+      "title": "SQL Outer Join Tutorial",
+      "url": "https://www.freecodecamp.org/news/sql-outer-join-tutorial-with-example-syntax/",
+      "tags": ["sql", "databases"]
+    },
+    {
+      "title": "What is Raspberry Pi? Specs & Models",
+      "url": "https://www.freecodecamp.org/news/what-is-raspberry-pi-specs-and-models-2021-guide/",
+      "tags": ["raspberry-pi"]
+    }
+  ]
+}
