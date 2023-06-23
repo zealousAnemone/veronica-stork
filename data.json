@@ -59,6 +59,11 @@
       "title": "What is Raspberry Pi? Specs & Models",
       "url": "https://www.freecodecamp.org/news/what-is-raspberry-pi-specs-and-models-2021-guide/",
       "tags": ["raspberry-pi"]
+    },
+    {
+      "title": "How to use the React Draggable component",
+      "url": "https://www.airplane.dev/blog/how-to-use-the-react-draggable-component",
+      "tags": ["react"]
     }
   ]
 }
