@@ -61,6 +61,16 @@
       "tags": ["raspberry-pi"]
     },
     {
+      "title": "Technical Writing for Engineers",
+      "url": "https://draft.dev/learn/technical-writing-for-engineers",
+      "tags": ["technical writing"]
+    },
+    {
+      "title": "Using AG Grid with React and Next.js",
+      "url": "https://blog.ag-grid.com/using-ag-grid-with-react-and-next-js/",
+      "tags": ["nextjs", "ag grid"]
+    },
+    {
       "title": "How to use the React Draggable component",
       "url": "https://www.airplane.dev/blog/how-to-use-the-react-draggable-component",
       "tags": ["react"]
