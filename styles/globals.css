@@ -168,6 +168,7 @@ nav {
   border: 1px solid #222;
   padding: 3px;
   box-shadow: 3px 3px 3px grey;
+  cursor: pointer;
 }
 
 .tags {
