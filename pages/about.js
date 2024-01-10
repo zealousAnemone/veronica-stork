@@ -55,7 +55,7 @@ const About = () => {
         my cats. When I want to relax, I enjoy reading and listening to music.
         My favorite author is Cormac McCarthy but I also love Francesca Lia
         Block, Philip K. Dick, and Terry Pratchett, to name a few. My favorite
-        bands and artists include nine inch nails, Rammstein, and Leonard Cohen.
+        bands and artists include nine inch nails, Rammstein, KMFDM, and Leonard Cohen.
       </p>
     </div>
   );
